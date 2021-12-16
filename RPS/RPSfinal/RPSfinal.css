@@ -1,0 +1,30 @@
+body{
+    background-color: #010048;
+}
+
+.topText{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+.buttonsGone{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+button{
+    margin: 0px 10px 0px 10px;
+    font-size: 1.2em;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #81d4fa;
+}
