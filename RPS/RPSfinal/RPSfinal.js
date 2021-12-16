@@ -61,7 +61,14 @@ function game(){
             let buttonsGone = document.querySelector('.buttonsGone')
             buttonsGone.style.color = '#81d4fa';
             buttonsGone.style.fontSize = '2em'
-            buttonsGone.innerText = "Refresh page to play again!"
+            buttonsGone.innerText = "Refresh page to play again!";
+            let img = document.createElement('img');
+            img.style.width = '40em';
+            img.style.marginTop = '1em';
+            img.src = 'https://images.squarespace-cdn.com/content/v1/5852ea705016e1d1bb27a876/1558551048448-ER9Q33ZDJJ2FBLBGGA47/Victory.jpg'
+            let photo = document.querySelector('#photo');
+            photo.style.textAlign = 'center'
+            photo.append(img); 
             //buttonsGone()
             // let endDiv = document.createElement('div');
             // endDiv.append("Refresh Page to start again");
@@ -73,7 +80,14 @@ function game(){
             let buttonsGone = document.querySelector('.buttonsGone');
             buttonsGone.style.color = '#81d4fa';
             buttonsGone.style.fontSize = '2em'
-            buttonsGone.innerText = "Refresh page to play again!"
+            buttonsGone.innerText = "Refresh page to play again!";
+            let img = document.createElement('img');
+            img.style.width = '40em';
+            img.style.marginTop = '1em';
+            img.src = 'https://image.shutterstock.com/image-vector/you-lose-neon-signs-style-260nw-1567204210.jpg'
+            let photo = document.querySelector('#photo');
+            photo.style.textAlign = 'center'
+            photo.append(img);
             // buttonsGone()
             // endDiv.innerText = "Refresh Page to Start Over"
             //disableButtons();
