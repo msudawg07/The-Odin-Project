@@ -4,3 +4,14 @@ let titles = function(array){
   }
   )
 }
+
+
+
+// new version 
+
+function titleDis(array){
+  titles = [];
+  for ( let i = 0; i < array.length; i++){
+    titles[i] = array[i].title;
+ }return titles;
+}
