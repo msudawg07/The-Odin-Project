@@ -7,7 +7,7 @@ let titles = function(array){
 
 
 
-// new version 
+// new version 4/1/22
 
 function titleDis(array){
   titles = [];
