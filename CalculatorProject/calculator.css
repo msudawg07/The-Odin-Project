@@ -1,0 +1,94 @@
+
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  border: 1px solid black;
+  height: 29em;
+  width: 23em;
+  border-radius: 7px;
+  background-color: #444444;
+}
+
+#containerTwo{
+  margin: 15px;
+}
+
+#screen{
+  color: white;
+  background-color: #767676;
+  contain: content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: 1px solid black;
+  height: 3.5em;
+  /* margin: 15px; */
+  border-radius: 4px;
+  font-size: 2em;
+}
+
+#clearDelete{
+  gap: 8px;
+  /* margin: 15px; */
+  display: flex;
+}
+
+.clearDelete{
+  flex: 1;
+  font-size: 20px;
+  padding: 15px 45px;
+  border-radius: 7px;
+}
+
+.clearDelete:hover{
+  cursor: pointer;
+  background-color: rgb(211, 64, 19);
+}
+
+#numberCon{
+  /* margin: 15px; */
+}
+
+#screen, #clearDelete{
+  margin-bottom: 10px;
+}
+
+.numButtons{
+  gap: 8px;
+  display: flex;
+}
+
+.numButtons button{
+  flex: 1;
+  font-size: 20px;
+  padding: 15px 0;
+  margin-bottom: 5px;
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+}
+
+.numButtons button:hover{
+  cursor: pointer;
+  background-color: brown;
+}
+
+#bottomButtons button{
+  margin-bottom: 0;
+}
+
+.operator{
+  background-color: orange !important;
+  color: white;
+}
+
+.operator:hover{
+  background-color: black !important;
+} 
